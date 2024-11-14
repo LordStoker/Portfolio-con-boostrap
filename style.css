@@ -2,9 +2,8 @@
 
 .navbar {
   padding: 2rem;
-  background-color: transparent;
-  width: 100%;
-  position: fixed;
+  background-color: #f5f6f7;
+
 }
 
 .navbar-collapse {
@@ -12,9 +11,9 @@
   justify-content: space-between;  
 }
 
-li{
+/* li{
   background-color: #f5f6f7;
-}
+} */
 /* Estilos generales */
 
 section {
