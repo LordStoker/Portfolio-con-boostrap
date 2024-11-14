@@ -193,6 +193,7 @@ h1 {
 
 .overlay .iconos-contenedor {
   display: flex;
+  margin: 20px;
 }
 
 .overlay i {
@@ -225,33 +226,33 @@ h1 {
   justify-content: center;
 }
 
-.testimonio-imagen {
+.profesor-imagen {
   height: 150px;
   width: 150px;
   margin: 10px 10px 20px 10px;
 }
 
-.testimonio-texto {
+.profesor-texto {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
 }
 
-.testimonio-info {
+.profesor-info {
   font-weight: bold;
   text-align: center;
 }
 
-.testimonio-info p {
+.profesor-info p {
   margin-bottom: 0;
 }
 
-.testimonio-footer .cliente {
+.profesor-footer .profesor {
   font-size: 1.2rem;
 }
 
-.testimonio-info .cargo {
+.profesor-info .cargo {
   font-size: 0.9rem;
   color: #656060;
 }
@@ -380,12 +381,12 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  .testimonio-imagen {
+  .profesor-imagen {
     height: 120px;
     width: 120px;
   }
 
-  .testimonio-texto {
+  .profesor-texto {
     font-size: 18px;
   }
 }
